@@ -1,0 +1,18 @@
+# Mac
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# Node
+node_modules/
+
+# Others
+*.bk
+*.bak

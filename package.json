@@ -1,0 +1,20 @@
+{
+  "name": "zenn-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "id": "ts-node tools/genSlugId.ts",
+    "a": "zenn new:article --slug $(ts-node tools/genSlugId.ts) --published false",
+    "p": "zenn preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "date-fns": "^2.30.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "zenn-cli": "^0.1.143"
+  }
+}
